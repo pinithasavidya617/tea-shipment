@@ -12,7 +12,7 @@ public class Main {
         OrganicTeaShipment organicTeaShipment = new OrganicTeaShipment();
         organicTeaShipment.printShipment();
 
-        OrganicTeaShipment organicTeaShipment1 = new OrganicTeaShipment("OP1", 25, "USA", "DHL");
+        OrganicTeaShipment organicTeaShipment1 = new OrganicTeaShipment("OP1", 25, "USA", "DHL", "Ceylon Tea Board");
         organicTeaShipment1.printShipment();
     }
 }
