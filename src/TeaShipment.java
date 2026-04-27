@@ -6,6 +6,7 @@ public class TeaShipment {
 
     public  TeaShipment(){
         this("Ceylon Tea Export");
+        System.out.println("Default Constructor executed");
     }
 
     public TeaShipment(String exporterName){
@@ -31,7 +32,7 @@ public class TeaShipment {
 //        System.out.println("executing constructor taking 4 arguments");
     }
 
-    public void printGrade(){
+    public void printShipment(){
         System.out.println("Shipment Grade - " + this.grade + "\n"
                 + "Shipment Weight - " + this.weight + "\n"
                 + "Shipment Country - " + this.shipmentCountry + "\n"

@@ -7,6 +7,12 @@ public class Main {
 
         TeaShipment teaShipment4 = new TeaShipment();
 
-        teaShipment4.printGrade();
+        teaShipment4.printShipment();
+
+        OrganicTeaShipment organicTeaShipment = new OrganicTeaShipment();
+        organicTeaShipment.printShipment();
+
+        OrganicTeaShipment organicTeaShipment1 = new OrganicTeaShipment("OP1", 25, "USA", "DHL");
+        organicTeaShipment1.printShipment();
     }
 }
