@@ -32,19 +32,12 @@ public class TeaShipment {
     }
 
     public void printGrade(){
-        System.out.println(this.grade);
+        System.out.println("Shipment Grade - " + this.grade + "\n"
+                + "Shipment Weight - " + this.weight + "\n"
+                + "Shipment Country - " + this.shipmentCountry + "\n"
+                + "Shipment Exporter - " + this.exporterName);
     }
 
-    public void printWeight(){
-        System.out.println(this.weight);
-    }
-
-    public void printCountry(){
-        System.out.println(this.shipmentCountry);
-
-    }public void printExporter(){
-        System.out.println(this.exporterName);
-    }
 
 
 }

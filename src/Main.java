@@ -7,7 +7,6 @@ public class Main {
 
         TeaShipment teaShipment4 = new TeaShipment();
 
-        System.out.println(teaShipment4.grade);
-
+        teaShipment4.printGrade();
     }
 }
